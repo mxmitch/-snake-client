@@ -16,6 +16,12 @@ const connect = function() {
     conn.write('Name: MKL');
   });
 
+  // conn.on('connect', () => {
+  //   setInterval(function() {
+  //     conn.write("Move: up");
+  //   }, 50);
+  // });
+
   return conn;
 }
 
